@@ -15,5 +15,5 @@ test("basic test", async ({ page }) => {
   await page.waitForSelector(".ready");
 
   const title = page.locator("pre");
-  await expect(title).toHaveText("fake test conten");
+  await expect(title).toHaveText("fake test content");
 });

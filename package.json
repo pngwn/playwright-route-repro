@@ -1,0 +1,20 @@
+{
+  "name": "playwright-route-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "server": "node src/server.js",
+    "serve": "sirv src -D"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.20.0",
+    "@polka/send-type": "^0.5.2",
+    "polka": "^0.5.2",
+    "sirv-cli": "^2.0.2"
+  }
+}
